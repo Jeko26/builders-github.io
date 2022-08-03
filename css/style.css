@@ -1,0 +1,255 @@
+/* общие стили */
+* {
+    box-sizing: border-box;
+}
+
+* li {
+    list-style-type: none;
+}
+
+.container {
+    padding: 0 5%;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.simple-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F0F0F0;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #C56A00;
+    border-radius: 20px;
+    width: 350px;
+    height: 80px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover {
+    transform: scale(120%);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 5s;
+    background-color: #A0522D;
+    color: beige;
+}
+
+.main-medium-heading {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 85px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/* секция header */
+
+.header {
+    background: url(../image/bh.png) no-repeat;
+    background-size: cover;
+    height: 10vh;
+}
+
+.header__container {
+    height: 10vh;
+}
+
+.header__burger {
+    display: none;
+}
+
+.header__group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__links {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__link {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F0F0F0;
+}
+
+.header__link:hover {
+    cursor: pointer;
+    color: #C56A00;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
+}
+
+/* секция full-screen */
+
+.full-screen {
+    background: url(../image/Slice.png) no-repeat;
+    height: 81vh;
+    background-size: cover;
+}
+
+.full-screen__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.full-screen__content-block {
+    padding-top: 160px;
+}
+
+.full-screen__main-title {
+    padding: 0;
+    margin: 0;
+    width: 55%;
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 85px;
+    margin-bottom: 10px;
+}
+
+.full-screen__btn-block {
+    padding-top: 50px;
+}
+
+/* секция about */
+
+.about {
+    background: #090B0D;
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+.about__container {
+    padding: 0;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+.about__image-box {
+    padding-right: 120px;
+}
+
+.about__medium-header {
+    margin-bottom: 40px;
+}
+
+.about__descr:first-child {
+    margin-bottom: 25px;
+}
+
+.about__descr {
+    font-size: 18px;
+    line-height: 22px;
+    color: #E5E5E5;
+}
+
+.about__stats-box {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+}
+
+.about__number {
+    margin: 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+/* секция advantages */
+
+.advantages {
+    background: #0D1C1F;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+
+.advantages__container {
+    flex-direction: column;
+}
+
+.advantages__header {
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.advantages__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.advantages__list-item {
+    background: #E2E2E2;
+    border-radius: 10px;
+    width: 28%;
+}
+
+.advantages__descr {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #3D3737;
+
+}
+
+.advantages__card-header {
+    margin: 0;
+    margin-top: 35px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: left;
+
+}
+
+.advantages__descr {
+    margin-left: 75px;
+    margin-bottom: 35px;
+    margin-right: 40px;
+}
