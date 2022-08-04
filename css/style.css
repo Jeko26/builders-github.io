@@ -60,6 +60,10 @@
     margin: 0;
 }
 
+.prod {
+    font-weight: 700;
+}
+
 /* секция header */
 
 .header {
@@ -333,4 +337,86 @@
 .works__logo:hover {
     transform: scale(150%);
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+/*секция examples */
+
+.examples {
+    background: #0D1C1F;
+    padding-top: 110px;
+    padding-bottom: 140px;
+}
+
+.examples__content-box {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.examples__image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.examples__arrow {
+    height: 45%;
+}
+
+.examples__arrow-left {
+    margin-right: 25px;
+}
+
+.examples__arrow-right {
+    margin-left: 25px;
+}
+
+.examples__arrow:hover {
+    cursor: pointer;
+    transform: scale(110%);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+/* секция aws */
+
+.aws {
+    background: url(../image/awsimg.png) no-repeat;
+    background-size: cover;
+}
+
+.aws__text-box {
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+.aws__advantages {
+    padding: 0;
+    margin: 0;
+}
+
+.aws__container {
+    justify-content: space-between;
+}
+
+.asw__advantage {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.asw__advantage:not(:last-child) {
+    margin-bottom: 50px;
+}
+
+.asw__advantage:last-child {
+    text-align: right;
+    width: 700px;
+}
+
+.aws__btn-block {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
 }
