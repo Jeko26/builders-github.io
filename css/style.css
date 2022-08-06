@@ -117,6 +117,7 @@
     background: url(../image/Slice.png) no-repeat;
     height: 81vh;
     background-size: cover;
+    padding-top: 160px;
 }
 
 .full-screen__container {
@@ -124,9 +125,7 @@
     flex-direction: column;
 }
 
-.full-screen__content-block {
-    padding-top: 160px;
-}
+.full-screen__content-block {}
 
 .full-screen__main-title {
     padding: 0;
@@ -142,7 +141,7 @@
 }
 
 .full-screen__btn-block {
-    padding-top: 50px;
+    margin-top: 50px;
 }
 
 /* секция about */
@@ -160,7 +159,7 @@
 }
 
 .about__image-box {
-    padding-right: 120px;
+    margin-right: 120px;
 }
 
 .about__medium-header {
@@ -212,7 +211,7 @@
     font-size: 64px;
     line-height: 75px;
     text-align: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .advantages__list {
@@ -235,14 +234,16 @@
     font-size: 18px;
     line-height: 22px;
     color: #3D3737;
-
+    padding-left: 75px;
+    margin-bottom: 35px;
+    padding-right: 40px;
 }
 
 .advantages__card-header {
     margin: 0;
-    margin-top: 35px;
+    padding-top: 35px;
     margin-left: 25px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 600;
@@ -250,12 +251,6 @@
     line-height: 42px;
     text-align: left;
 
-}
-
-.advantages__descr {
-    margin-left: 75px;
-    margin-bottom: 35px;
-    margin-right: 40px;
 }
 
 /* секция works */
@@ -289,8 +284,9 @@
 .works__list {
     display: flex;
     /* padding-left: 600px; */
-    padding-left: 40%;
-    padding-right: 100px;
+    /* padding-left: 40%;
+    padding-right: 100px; */
+    justify-content: flex-end;
 }
 
 .works__list-item {
@@ -383,11 +379,6 @@
     background-size: cover;
 }
 
-.aws__text-box {
-    padding-top: 110px;
-    padding-bottom: 120px;
-}
-
 .aws__advantages {
     padding: 0;
     margin: 0;
@@ -395,6 +386,9 @@
 
 .aws__container {
     justify-content: space-between;
+    padding-top: 110px;
+    padding-bottom: 120px;
+    padding-right: 100px;
 }
 
 .asw__advantage {
@@ -418,5 +412,76 @@
 .aws__btn-block {
     display: flex;
     align-items: center;
-    padding-right: 100px;
 }
+
+/* cекция stages */
+
+.stages {
+    background: rgba(13, 28, 31, 1);
+    padding-bottom: 150px;
+}
+
+.stages__container {
+    flex-direction: column;
+    padding: 0 10%;
+    padding-top: 100px;
+}
+
+.stages__list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* max-width: 800px; */
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.stages__descr {
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E5E5E5;
+}
+
+.stages__list-item {
+    display: flex;
+    margin-right: 100px;
+    margin-bottom: 140px;
+    width: 400px;
+    align-items: center;
+}
+
+.stages__header {
+    margin-bottom: 70px;
+}
+
+.stages__list-item:hover {
+    cursor: pointer;
+    transform: scale(130%);
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
+}
+
+/* .stages__list-item:nth-child(3) {
+    margin-right: 0;
+}
+
+.stages__list-item:nth-child(6) {
+    margin-right: 0;
+}
+
+.stages__list-item:nth-child(7) {
+    margin-bottom: 0;
+}
+
+.stages__list-item:nth-child(8) {
+    margin-bottom: 0;
+}
+
+.stages__list-item:nth-child(9) {
+    margin-right: 0;
+    margin-bottom: 0;
+} */
